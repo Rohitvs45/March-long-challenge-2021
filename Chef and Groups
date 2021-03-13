@@ -1,0 +1,9 @@
+n=int(input())
+
+for i in range(n):
+    l=[]
+    s=input().split('0')
+    for j in s:
+        if j!='':
+            l.append(j)
+    print(len(l))
